@@ -7,5 +7,10 @@ module.exports = {
       script: './node_modules/nuxt/bin/nuxt.js',
       args: 'start'
     }
-  ]
+  ],
+  env: {
+    // 개발 환경설정
+    PORT: 3000,
+
+  },
 }
