@@ -11,6 +11,7 @@ module.exports = {
   env: {
     // 개발 환경설정
     PORT: 3000,
+    NODE_ENV : "development"
 
   },
 }
